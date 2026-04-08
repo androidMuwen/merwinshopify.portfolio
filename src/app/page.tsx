@@ -44,7 +44,7 @@ export default function Home() {
       />
       <Column fillWidth horizontal="center" gap="m">
         <Column maxWidth="s" horizontal="center" align="center">
-          {home.featured.display && (
+          {home.featured && home.featured.display && (
             <RevealFx
               fillWidth
               horizontal="center"

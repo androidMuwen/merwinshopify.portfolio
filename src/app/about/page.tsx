@@ -164,7 +164,6 @@ export default function About() {
                 data-border="rounded"
               >
                 {social
-                      .filter((item) => item.essential)
                       .map(
                   (item) =>
                     item.link && (
@@ -234,7 +233,7 @@ export default function About() {
                         ),
                       )}
                     </Column>
-                    {experience.images && experience.images.length > 0 && (
+                    {/* {experience.images && experience.images.length > 0 && (
                       <Row fillWidth paddingTop="m" paddingLeft="40" gap="12" wrap>
                         {experience.images.map((image, index) => (
                           <Row
@@ -254,7 +253,7 @@ export default function About() {
                           </Row>
                         ))}
                       </Row>
-                    )}
+                    )} */}
                   </Column>
                 ))}
               </Column>
@@ -300,7 +299,7 @@ export default function About() {
                     <Text variant="body-default-m" onBackground="neutral-weak">
                       {skill.description}
                     </Text>
-                    {skill.tags && skill.tags.length > 0 && (
+                    {/* {skill.tags && skill.tags.length > 0 && (
                       <Row wrap gap="8" paddingTop="8">
                         {skill.tags.map((tag, tagIndex) => (
                           <Tag key={`${skill.title}-${tagIndex}`} size="l" prefixIcon={tag.icon}>
@@ -308,8 +307,8 @@ export default function About() {
                           </Tag>
                         ))}
                       </Row>
-                    )}
-                    {skill.images && skill.images.length > 0 && (
+                    )} */}
+                    {/* {skill.images && skill.images.length > 0 && (
                       <Row fillWidth paddingTop="m" gap="12" wrap>
                         {skill.images.map((image, index) => (
                           <Row
@@ -329,7 +328,7 @@ export default function About() {
                           </Row>
                         ))}
                       </Row>
-                    )}
+                    )} */}
                   </Column>
                 ))}
               </Column>
