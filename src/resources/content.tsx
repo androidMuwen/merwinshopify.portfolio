@@ -2,14 +2,14 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
+  firstName: "Merwin",
+  lastName: "Vilvar",
+  name: `Merwin Vilvar`,
+  role: "Shopify Partner",
+  avatar: "/images/avatar.webp",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Manila", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter: Newsletter = {
@@ -60,12 +60,12 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building bridges between design and revenue</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Merwin</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    I'm Merwin, a freelance <Text as="span" size="xl" weight="strong">Shopify Partner</Text>, where I craft strategies <br /> boosting sales. After hours, I build my own projects.
 </>
   ),
 };
@@ -95,16 +95,18 @@ const about: About = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendar.app.google/JJ95hYhyoJYycan5A",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Merwin is a Shopify Developer | Funnel & Conversion Specialist based 
+        in Philippines, bridging the gap between compelling merchandising
+         and technical performance. His expertise encompasses everything 
+         from optimizing Klaviyo and Funnelish systems to ensuring high-end 
+         product aesthetics drive tangible sales growth.
       </>
     ),
   },
@@ -113,9 +115,9 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Shopify Partner",
+        timeframe: "2025 - Present",
+        role: "Shopify Developer | Funnel & Conversion Specialist",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -129,7 +131,7 @@ const about: About = {
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/mobile mockup.png",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -137,13 +139,13 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Virtuosomaster",
+        timeframe: "2024 - 2025",
+        role: "Web Developer | E-commerce Specialist",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed an automated shopify store management system that reduced inventory errors by 40% 
+            and improved order fulfillment speed by 25%.
           </>,
           <>
             Led a cross-functional team to launch a new product line, contributing to a 15% increase
@@ -159,12 +161,12 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "St. Anthony's College",
+        description: <>Studied information technology.</>,
       },
       {
         name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        description: <>Studied Shopify Masterclass and Linkedin: Figma Design.</>,
       },
     ],
   },
@@ -173,14 +175,89 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Shopify",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Building Shopify stores that converts into sales.</>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
+            name: "Shopify 2.0",
+            icon: "shopify",
+          },
+          {
+            name: "Liquid",
+            icon: "liquid",
+          },
+          {
+            name: "CSS",
+            icon: "css",
+          },
+          {
+            name: "Page Builder",
+            icon: "pagebuilder",
+          },
+          {
+            name: "Klaviyo",
+            icon: "klaviyo",
+          },
+          {
+            name: "Heatmap Tools",
+            icon: "",
+          },
+          {
+            name: "CRO Tools",
+            icon: "",
+          },
+          {
+            name: "AOV Tools",
+            icon: "",
+          },
+          {
+            name: "Shopify Flow",
+            icon: "",
+          },
+          {
+            name: "API Integrations",
+            icon: "",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/strom-mockup.webp",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/strom-mockup.webp",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/strom-mockup.webp",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/strom-mockup.webp",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Search Engine Optimization (SEO)",
+        description: (
+          <>Able to prototype in Canva with quality and speed through structured workflows.</>
+        ),
+        tags: [
+          {
+            name: "Pagespeed",
+            icon: "",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -200,28 +277,34 @@ const about: About = {
         ],
       },
       {
-        title: "Next.js",
+        title: "Graphic Design and Prototyping",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Able to prototype in Photoshop with quality and speed through structured workflows.</>
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "Figma",
+            icon: "figma",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Photoshop",
+            icon: "photoshop",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Canva",
+            icon: "canva",
           },
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-03.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -269,7 +352,7 @@ const gallery: Gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/gallery/funnel.webp",
       alt: "image",
       orientation: "horizontal",
     },
@@ -284,7 +367,7 @@ const gallery: Gallery = {
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/gallery/conversion-catalyst.webp",
       alt: "image",
       orientation: "horizontal",
     },

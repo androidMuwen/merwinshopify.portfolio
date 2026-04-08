@@ -1,83 +1,44 @@
 ---
-title: "Styling your portfolio"
-summary: "Magic Portfolio's styling is based on Once UI's customization through data-attributes."
-image: "/images/gallery/horizontal-3.jpg"
+title: "Beyond the Template: Funnels for Maximum Conversion"
+summary: ""
+image: "/images/gallery/funnel.webp"
 publishedAt: "2025-04-21"
-tag: "Magic Portfolio"
+tag: "Shopify Portfolio"
 ---
 
-## Global style
+A well-architected sales funnel will guide a customer toward a purchase, but it’s the `styling` of that funnel that dictates whether they actually trust you enough to pull out their credit card.
 
-Magic Portfolio's styling is based on Once UI's customization through data-attributes. You can generate a custom color palette for brand, accent and neutral colors on [Once UI](https://once-ui.com/customize) where you'll find instructions on how to apply it.
+In the e-commerce world, design is not just about making things look pretty. Design is a psychological tool. It `directs` attention, communicates brand value, and, most importantly, eliminates friction. If your funnel looks clunky, generic, or disjointed, your conversion rate will suffer, no matter how good your product is.
 
-<CodeBlock
-    marginBottom="16"
-    codes={[
-  {
-    code:
-`theme:       'dark',         // dark | light
-neutral:     'gray',         // sand | gray | slate
-brand:       'blue',         // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-accent:      'indigo',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
-solid:       'contrast',     // color | contrast
-solidStyle:  'flat',         // flat | plastic
-border:      'playful',      // rounded | playful | conservative
-surface:     'translucent',  // filled | translucent
-transition:  'all',          // all | micro | macro
-scaling:     '100',          // 90 | 95 | 100 | 105 | 110`, 
-    language: "tsx",
-    label: "src/app/resources/config.js"
-  }
-]} />
+Here is how to approach styling your Shopify funnels to maximize both aesthetics and performance.
 
-## Background effect
+## 1. The Landing Page: Visual Hierarchy is Everything
+When a user clicks an ad and lands on your page, you have about three seconds to convince them they are in the right place. Standard theme pages often lack the flexibility needed to build a highly persuasive, customized narrative.
 
-There's a pre-configured background in `layout.tsx` that you can modify in the config file. Set graphic elements such as gradient, dots, lines, and grid and configure their appearance.
+• `Break the Grid:` Tools like Gempages are essential for breaking out of restrictive templates. Use them to design custom landing pages with clear visual hierarchies. Your headlines, hero images, and primary calls-to-action (CTAs) should dominate the screen real estate.
 
-<CodeBlock
-    codeHeight={24}
-    marginBottom="16"
-    codes={[
-  {
-    code:
-`const effects = {
-    mask: {
-      cursor: false,
-      x: 50,
-      y: 0,
-      radius: 100
-    },
-    gradient: {
-      display: true,
-      x: 50,
-      y: -25,
-      width: 100,
-      height: 100,
-      tilt: 0,
-      colorStart: 'accent-background-strong',
-      colorEnd: 'static-transparent',
-      opacity: 50
-    },
-    dots: {
-      display: true,
-      size: 2,
-      color: 'brand-on-background-weak',
-      opacity: 20
-    },
-    lines: {
-      display: false,
-      color: 'neutral-alpha-weak',
-      opacity: 100
-    },
-    grid: {
-      display: false,
-      color: 'neutral-alpha-weak',
-      opacity: 100,
-      width: 'var(--static-space-32)',
-      height: 'var(--static-space-32)'
-    }
-}`, 
-    language: "tsx",
-    label: "src/app/resources/config.js"
-  }
-]} />
+• `Guide the Eye:` Use directional cues in your styling—like contrasting background sections or subtle arrows—to pull the user down the page toward the Add to Cart button.
+
+## 2. Upgrading Your Visual Assets
+The quality of the media inside your funnel dictates the perceived value of your product. This is especially true in niches like luxury watches or high-end apparel, where the customer expects a premium visual experience.
+
+• `Custom Graphics:` Avoid generic stock photos or basic text overlays. Use Canva to quickly mock up polished, branded graphics, comparison charts, and feature callouts that feel native to your store's aesthetic.
+
+• `Photography as Design:` Ensure your product photography uses consistent lighting, shadows, and backgrounds. The imagery itself should function as a cohesive design element within the funnel, not just a standalone picture.
+
+## 3. The Checkout: Styling for Trust and Speed
+The checkout page is where most funnels bleed revenue. The styling goal here shifts from "persuasion" to "reassurance and simplicity."
+
+• `The Micro-Funnel Environment:` Transitioning buyers to a dedicated, high-converting checkout environment like Funnelish allows you to strip away all unnecessary navigation and footer links. The style should be hyper-focused.
+
+• `Visual Trust Signals:` Styling isn't just about colors; it's about placement. Ensure secure checkout badges, a concise summary of your refund policy, and customer testimonials are styled to be clearly visible without cluttering the payment fields.
+
+## 4. The Micro-Details: When to Get Under the Hood
+Sometimes, dragging and dropping isn't enough to get the exact look and feel your brand requires.
+
+• `Seamless Brand Consistency:` Your funnel must feel like one continuous experience from the first click to the final thank-you page. If a button color changes slightly or a font weight shifts between steps, it subconsciously erodes trust.
+
+• `Custom Tweaks:` Don't be afraid to dive into the code. Using Liquid to tweak your theme files or adding custom CSS ensures that every hover state, button radius, and typography choice is perfectly aligned with your core brand guidelines.
+
+## The Bottom Line
+Funnels are the engine of your Shopify store, but the styling is the aerodynamic bodywork. By strategically using the right page builders, crafting custom visual assets, and obsessing over the micro-details of the checkout experience, you create a seamless journey that turns casual traffic into confident buyers.
