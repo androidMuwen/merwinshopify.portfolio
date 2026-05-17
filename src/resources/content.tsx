@@ -60,7 +60,7 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and revenue</>,
+  headline: <>Need a Design that Sells?</>,
   featured: {
     display: true,
     title: (
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Merwin, a freelance <Text as="span" size="xl" weight="strong">Shopify Partner</Text>, where I craft strategies <br /> boosting sales. After hours, I build my own projects.
+    I'm Merwin, a freelance <Text as="span" size="xl" weight="strong">Shopify Partner</Text>, where I craft design strategies <br /> boosting sales. After hours, I build my own projects.
 </>
   ),
 };
